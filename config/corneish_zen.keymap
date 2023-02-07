@@ -38,6 +38,9 @@ flavor = "tap-preferred";
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+	};
+	/ {
+    macros {
 	    macro_1: macro_1 {
 			compatible = "zmk,behavior-macro";
 			label = "macro_1";
