@@ -88,9 +88,6 @@ flavor = "tap-preferred";
 	bindings = <&to QWERTY>, <&kp LANG1>;
 	};
         };
-		};
-		
-	/{
         behaviors {
             as: auto_shift {
                 compatible = "zmk,behavior-hold-tap";
@@ -112,9 +109,6 @@ flavor = "tap-preferred";
         };
 	};
 
-};
-
-/ {
         keymap {
                 compatible = "zmk,keymap";
 
