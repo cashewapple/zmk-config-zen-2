@@ -7,7 +7,12 @@
 #define NUMBER   2
 #define FN       3
 #define NAV      4
-
+/ {
+  chosen {
+    zmk,matrix_transform = &default_transform;
+    //zmk,matrix_transform = &five_column_transform;
+  };
+};
 
 #define AS(keycode) &as LS(keycode) keycode
 
