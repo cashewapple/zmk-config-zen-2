@@ -8,12 +8,6 @@
 #define FN       3
 #define NAV      4
 
-/ {
-  chosen {
-    zmk,matrix_transform = &default_transform;
-    //zmk,matrix_transform = &five_column_transform;
-  };
-};
 
 #define AS(keycode) &as LS(keycode) keycode
 
@@ -22,7 +16,7 @@ tapping-term-ms = <190>;
 flavor = "tap-preferred";
 };
 
-	/ {
+/ {
     macros {
 	    macro_1: macro_1 {
 			compatible = "zmk,behavior-macro";
